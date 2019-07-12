@@ -8,7 +8,7 @@ pipeline {
                      }
                 stage('Build') {
                   steps {
-                    sh '/home/anusha/softwares/apache-maven-3.5.0/bin/mvn install'
+                    sh '/home/anushaks/softwares/apache-maven-3.5.0/bin/mvn install'
                         }
                    }
               }
